@@ -1,0 +1,63 @@
+.tela {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background: red;
+}
+.casa {
+	width: 370px;
+	height: 40vh;
+	position: absolute;
+	background: blue;
+	top: 50%;
+	left: 33%;
+}
+.porta {
+	width: 70px;
+	height: 20vh;
+	position: absolute;
+	background: yellow; 
+	top: 50%;
+	left: 15%;
+}
+.maçaneta {
+	width: 15px;
+	height: 2vh;
+	position: absolute;
+	background: #000;
+	border-radius: 50%;
+	top: 40%;
+	left: 70%;
+}
+.janela {
+	width: 80px;
+	height: 10vh;
+	position: absolute;
+	background: yellow;
+	top: 45%;
+	left: 60%;
+}
+.telhado {
+	width: 500px;
+	height: 7vh;
+	position: absolute;
+	background: yellow;
+	top: 50%;
+	left: 28%;
+}
+.telhado2 {
+	width: 450px;
+	height: 7vh;
+	position: absolute;
+	background: green;
+	top: 43%;
+	left: 30%;
+}
+.telhado3{
+	width: 400px;
+	height: 7vh;
+	position: absolute;
+	background: yellow;
+	top: 36%;
+	left: 32%;
+}
