@@ -1,8 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 .tela {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
-	background: red;
+	background: #00BFFF;
+}
+.grama{
+	width: 100vw;
+	height: 50%;
+	background: green;
+	position: absolute;
+	top: 75%;
+}
+.sol{
+	width: 20vw;
+	height: 20vh;
+	border-radius: 50%;
+	background: yellow;
+	position: absolute;
+	top: 3%;
+	left: 65%;
+}
+.nuvem{
+	width: 30vw; 
+	height: 27vh;
+	position: absolute;
+	top: 3%;
+	left: 10%;
+}
+.nuvem2{
+	width: 20vw; 
+	height: 20vh;
+	position: absolute;
+	top: 10%;
+	left: 60%;
 }
 .casa {
 	width: 370px;
@@ -49,7 +84,7 @@
 	width: 450px;
 	height: 7vh;
 	position: absolute;
-	background: green;
+	background: orange;
 	top: 43%;
 	left: 30%;
 }
@@ -60,4 +95,40 @@
 	background: yellow;
 	top: 36%;
 	left: 32%;
+}
+.cerca{
+	width:29vw;
+	height: 28vh;
+	position: absolute;
+	top: 75%;
+	left: 2px;
+}
+.cerca2{
+	top: 75%; 
+	left: 87px;
+}
+.cerca3{
+	top: 75%; 
+	left: 46%;
+}
+.cerca4{
+	top: 75%; 
+	left: 75%;
+}
+.caminho{
+	width: 26px;
+	height: 4vh;
+	position: absolute;
+	background: gray;
+	border-radius: 30%;
+	top: 91%;
+	left: 38%;
+}
+.pedra2{
+	top: 93%;
+	left: 41%;
+}
+.pedra3{
+	top: 97%;
+	left: 38%;
 }
